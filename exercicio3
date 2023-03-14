@@ -1,0 +1,20 @@
+<?php
+
+$nome = Leticia;
+
+$sexo = fem;
+
+$idade = 25;
+
+if ($sexo == fem && $idade >= 25) {
+
+echo "$nome, você foi aceita.";
+
+} else {
+
+echo "$nome, você não foi aceita.";
+
+}
+
+
+?>
