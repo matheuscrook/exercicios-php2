@@ -1,0 +1,19 @@
+<?php
+
+$mes = 12;
+
+if ($mes <= 6) {
+
+echo "Você está no primeiro semestre.";
+
+} elseif ($mes <= 12) {
+
+echo "Você está no segundo semestre.";
+
+} else {
+
+echo "Mês invalido.";
+
+}
+
+?>
