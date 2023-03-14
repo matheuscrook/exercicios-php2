@@ -1,0 +1,28 @@
+<?php
+
+$mes = 1;
+
+if ($mes <= 3) {
+
+echo "Você está no primeiro trimestre";
+
+} elseif ($mes <= 6) {
+
+echo "Você está no segundo trimestre";
+
+} elseif ($mes <= 9) {
+
+echo "Você está no segundo trimestre.";
+    
+} elseif ($mes <= 12) {
+
+echo "Você está no segundo trimestre.";
+         
+} else {
+
+echo "Mês invalido.";
+
+}
+
+
+?>
